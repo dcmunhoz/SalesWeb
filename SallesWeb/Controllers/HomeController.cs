@@ -23,6 +23,12 @@ namespace SallesWeb.Controllers
             return View();
         }
 
+        public IActionResult About()
+        {
+            ViewData["email"] = "danielmunhoz@email.com";
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
